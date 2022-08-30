@@ -1,0 +1,58 @@
+#+TITLE: Linked Open Data and Knoweldge Graphs (Winter semester 2022/2023)
+#+SUBTITLE: [[https://digital-sciences.de][Master Digital Sciences]] at [[https://www.th-koeln.de/][TH Köln]]
+#+AUTHOR: Prof. Dr. Konrad U. Förstner, Ziyad
+#+DATE: 2022-10-10
+#+LICENCE: CC-BY
+#+LANGUAGE: en
+#+KEYWORDS: Linked Open Data, Knowledge Grapsh, TH Köln
+#+HTML_DOCTYPE: html5
+#+EMAIL: foerstner@zbmed.de
+#+OPTIONS: toc:t
+#+OPTIONS: email:t
+#+LATEX_HEADER: \usepackage[T1]{fontenc}
+#+LATEX_HEADER: \usepackage[nomath]{lmodern}
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./style.css"/>
+
+* House keeping
+** General information
+
+- There are no stupid questions. Please feel free to ask anything at
+  anytime.
+- Mistakes are to be expected, respected, inspected, and corrected.
+- In case you have any disabilities that hamper the usage of the
+  material, the participation in the course or the exam - please
+  contact me.
+- No need to buy any book or other material.
+- Prequires for this course (checked in a survey)
+  - Basic Python coding skills
+  - Basic understanding of the Python library pandas
+  - Basic Jupyter Notebooks
+  - Basic understanding how to use git and Github
+
+** Code of Conduct
+
+- Use welcoming and inclusive language.
+- Be respectful of different viewpoints and experiences.
+- Gracefully accept constructive criticism.
+- Show courtesy and respect towards other community members.
+
+Contact me in case you feel that somebody violates the rules.
+
+(Inspired by the [[https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html][Code of Conduct of The Carpentries]])
+
+** Learning outcomes
+
+** Schedule
+   
+* Literature
+
+** Books
+   
+** Research articles
+   
+* About me
+
+  You can find a short bio on my [[https://konrad.foerstner.org/][website.]]
+  
+* Contact
+  - Email: foerstner@zbmed.de
