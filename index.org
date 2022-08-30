@@ -1,4 +1,4 @@
-#+TITLE: Linked Open Data and Knoweldge Graphs (Winter semester 2022/2023)
+#+TITLE: Linked Open Data and Knowledge Graphs (Winter semester 2022/2023)
 #+SUBTITLE: [[https://digital-sciences.de][Master Digital Sciences]] at [[https://www.th-koeln.de/][TH Köln]]
 #+AUTHOR: Prof. Dr. Konrad U. Förstner, Ziyad
 #+DATE: 2022-10-10
