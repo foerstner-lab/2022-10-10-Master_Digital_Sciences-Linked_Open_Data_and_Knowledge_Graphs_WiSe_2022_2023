@@ -1,4 +1,4 @@
-# Master Digital Sciences - Linked Open Data and Knoweldge Graphs (Winter semester 2022/2023)
+# Master Digital Sciences - Linked Open Data and Knowledge Graphs (Winter semester 2022/2023)
 
 A course as part of the [Master Digital
 Sciences](https://digital-sciences.de) at
