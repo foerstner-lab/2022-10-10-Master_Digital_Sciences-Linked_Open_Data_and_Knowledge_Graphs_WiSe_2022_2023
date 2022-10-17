@@ -44,16 +44,28 @@ Contact me in case you feel that somebody violates the rules.
 
 ** Schedule
 
-- First lecture: Monday, October 10, 2022
-- Project presentation: Monday, January 30, 2023
+- First lecture: Monday, October 17, 2022
+- Project presentation: Monday January 12, 2023
 - Submission closing date for the project report: Monday, February 20, 2023, 21:00
 
 * Literature
 
 ** Books
-   
+
+- Knowledge Graphs - Methodology, Tools and Selected Use Cases; Dieter
+  Fensel, Umutcan Şimşek, Kevin Angele, Elwin Huaman, Elias Kärle,
+  Oleksandra Panasiuk, Ioan Toma, Jürgen Umbrich, Alexander Wahler,
+  2020, 1st ed. 2020, Springer International Publishing,
+  ISBN: 978-3-030-37438-9
+
+- Shaping Knowledge from Antiquity to the Semantic Web Richard
+  Gartner, 1st ed. 2016, Springer International Publishing, ISBN:
+  978-3-319-40891-0
+
 ** Research articles
-   
+
+TBA
+
 * About me
 
   You can find a short bio on my [[https://konrad.foerstner.org/][website.]]
