@@ -132,12 +132,12 @@ There are three assignments:
 
 ** 2022-10-17
 
+*** Data / Information / Knowldge / Wisdom
+
 #+CAPTION: Ackoff Pyramid
 #+NAME:   
 #+ATTR_HTML: :width 800
  https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/DIKW_Pyramid.svg/1280px-DIKW_Pyramid.svg.png
-
-*** Data / Information / Knowldge / Wisdom
 
 https://link.springer.com/referenceworkentry/10.1007/978-3-319-32001-4_331-1
 
@@ -158,12 +158,22 @@ Data-Information-Knowledge-Wisdom (DIKW) Pyramid, Framework, Continuum
   itself, are the characteristics that differentiate man from
   machines." (Ackoff 1989, 9)
 
+*** Basic terms (Thinks-Pair-Share)
+
+- What is knowledge?
+- What are graphs?
+- How do we represent knowledge
+
 *** Graphs
 
 - Graphs (or Networks)
   - nodes / vertices
   - edges / links  
 
+*** Building a Concept Map of Hinzler (20 min, until 16:27 in pairs)
+
+- https://mermaid.live/edit#pako:eNqdVs1u2zAMfhXBpw5o-wA5DCiaFB3Wot3SYQenB8WmbW22ZEhy06zuu4-yfhwndtIth0j6RIoU-ZHyW5SIFKJZlJVikxRUavI0X3GCv0TwBGp9T2sVX9s5MYtnuy1kTjn7A-lXLjYlpDnEDx4iAXPCmUga9a0BpZngKl5FNwYgHjlTn1aRE6VKiYRRDekNQMl4ruKrABGPoXlylWWQaKdWS1ELxez5jzuL58FtwlU8XoOEBF4g_Q55U1KJSoAHgEyAIUp2YWP0kWoNMhyLmlybCy26CTm7pXUN3LjYX0msf6GjRuphbSbk7KkYSjCeUXPOFzs6tKRrwCjGd3Z0qNpWa1GqeGlHh26ETFX80_x7bcZ_o5UOiu_sguwKFMAklUnBElqW26WWTaIbifZuBxuk3_GxlEA1e2F6G1-HqQ_IK0YUb7Kwo0MbzrR6yO6BmtDEP8ySiIw4IOQoxw0Me7CI2XJQ70VwQihl7ogpDdMQTsyRhJJ2DChYbSK7DznZlCGNJCYPub2EvOryOfegYTzxsL9ixzv06QloYhIZLzxCPLQvegdU8qGoh3qCanjVc0D6pGjNENUAJCA-_6YWynjZDT2LleCIProJ4gdVTC4uPrcSagkKT2tHKnhcpYCyJloQytUGZLtXzFZnqid0BzCFZ1a1ZAoLSmRtKMbjWjwpmxRUO9ISjipyLGilqNyip-juQQ7-S9kn9t8uutuVTmi2BwzwKZz0FFI0cyIxQ6xTpBKmje3jnQZc5petI95JMc_FXWIcZtB6khr_9_kwbNi9y64dTm2PdvIp4aneNyKPCySFeXwahZ63g8bqw7aLdVqNsrlBFlX7PDjefm0oVQ0m2th-N0wXre-rH1BlvB3ppB9QpCw1LAwd3Ts6bN4-JqpTRtUpe4fvch_-4ZETkhXdkrWhamjvu_wYTXcIgH2XPyLpHudTomvIGfplk-Ge65B8S8xOzgpsLDfGN90DHiouBPyIoRHBvv4VQDvy5vUGfPw6PVWIzbj4-NPpvNIbAAzX2HO54tF5VIGskEH4KflmTlpFuoAKVtEMpylktCn1KlrxdxSljRbLLU-iWUZLBedRU6fYG-aM5pJWe-giZVrIaIbEQgy61b39Zu0-Xd__AiX95tY
+- https://mermaid.live/edit#pako:eNqFVtuOmzAQ_RWL591228c8VEqVdhV1t1vtRXlwKmRgAlbARrYJjZb99w5gAwGSREoyl8PgOTPM8O6FMgJv4e1SWYYJU4a8rraC4EdDxoThoV9CQF-sQjYQ_G39KRd7iPyIGUYfGpmsULbe59VPP1YsTzRFkbSi9UlhZCpjDpr2ovVlLEy4AF8Bi1iQQnN3ayTOSMruFE-bB4pfq62f1xS_VntD7a3TyrKkm83GahHLUrpaPv5xcdYYZ-3ixFLGKdD75s_aTJD6OctB0Veeke-gBNw-ANyQr3d3XyxGsbIlBAUS9WwkBdLX5URrNeqycZmDYc21j1awdh0mSL4vVUxb8ROKXRaG-RiaxZCBMLQuAOl1lznf8ybyxgquDjkI0Jo-tf_uftgFWNdQihByo-lLoxOnu0yh0CzgKTdH-tzL1hvKLAMVcpb6eAxu6lL3NuJsFr1c06Wr0l7IMoUoBtc9v5yB3A97yHpbG_lMfoMppdo7t8Cu1rT5tZY6hKbNr6MFeJwYiKgTxkfo7-3o5gpCBGIx_EI4jVqBSEV665l8yO3ttwoJrWwGF1AKcgUauap6_zD5BoRl0VwbTeSuanO8DGkoGTDSIpggAR5pPr9zaEfbdFy42xrGha4Gz_sZaKT4AYMHx2o4VSZjZppNP2UuRRZ15DHFk-g1HA4yPWCz75TMqvGxxxEmF0zO3kfoeSPIf6h4gBedKscK59h4eLrrLJkVDrdrkDcHWa6dq9BQDamZzb2nys6F81n30JkH_XTm1HCuCR4C_rEsx9mNdZsQNTxcfUXCNM5gllajAXcFPbc8hlwIgEhfQPWjtkbnSh44FsiaNdlJdZ1GxrMWOZiQ88d2tBjAjpYCiSEmgQr31Dw-Y3uoS1kz6JbF6eo4mRrYU0xPmvi0JTswM3iC5pkajf9ud3a5GVk__acbbZYJNwBIJrVJj5VbjvPZhRJrEhFs4G7Rnm9AC8YGbDd19y7QdCfU7WmfSdzp3YKfOHH_o7f1u3_vxsOOzhiP8K3ovbZtPSxLBltvgWIEO1akZuttxQdCWWHky1GE3mLHUg03XpFjirDiDA-bjaw_Im6k8hZGFWiDRntsX7-at7CP_9w3Ykc
 
 ** 2022-10-24
 :PROPERTIES:
