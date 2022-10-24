@@ -181,7 +181,7 @@ Data-Information-Knowledge-Wisdom (DIKW) Pyramid, Framework, Continuum
 :ID:       3befa396-f8a9-4d41-a413-3e653612e0c9
 :END:
 
-- Distribute of research papers
+- Selecte research papers for the presentation
 - Continue to work on topic presentation
 
 * Literature
