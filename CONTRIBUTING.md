@@ -3,3 +3,4 @@
   license](https://creativecommons.org/share-your-work/public-domain/cc0/).
 - Add images ideally as [SVG
   files](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics).
+- Use [APA style](https://libguides.murdoch.edu.au/APA) for citations.
