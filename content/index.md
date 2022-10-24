@@ -2,7 +2,7 @@
 
 ## Basic topics
 - The Resource Description Framework (RDF)
-- [RDF Schema](RDF_Schema.md)
+- [RDF Schema](./RDF_Schema.md)
 - Graphs, Centrality, Graphs Quality
 - SPARQL and Cypher
 - The Web Ontology Language
