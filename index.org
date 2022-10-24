@@ -192,11 +192,69 @@ Data-Information-Knowledge-Wisdom (DIKW) Pyramid, Framework, Continuum
 
 ** Research articles
 
-*** Introduction and Basics
+*** Reference Research Articles:
 
-***
+- An Introduction to the Resource Description Framework, https://asistdl.onlinelibrary.wiley.com/doi/full/10.1002/bult.105
+- Resource description framework: metadata and its applications,
+  https://dl.acm.org/doi/abs/10.1145/507533.507536
+- The Resource Description Framework (RDF) and its Vocabulary
+  Description Language RDFS,
+  https://link.springer.com/chapter/10.1007/978-3-540-24750-0_3
+- Web Ontology Language: OWL,
+  https://link.springer.com/chapter/10.1007/978-3-540-24750-0_4
+- Web Ontology Language (OWL) https://corescholar.libraries.wright.edu/cgi/viewcontent.cgi?article=1183&context=cse
+- Cooking the Semantic Web with the OWL API, https://link.springer.com/content/pdf/10.1007/978-3-540-39718-2_42.pdf ()
+- Knowledge Graphs: New Directions for Knowledge Representation on the Semantic Web,
+  https://drops.dagstuhl.de/opus/volltexte/2019/10328/
 
-TBA
+*** Selection of publications for presentation*
+
+- Application of Resource Description Framework to Personalise
+  Learning: Systematic Review and Methodology,
+  https://infedu.vu.lt/journal/INFEDU/article/70/info
+- Semantic Web and Knowledge Graphs for Industry 4.0,
+  https://www.mdpi.com/2076-3417/11/11/5110/htm
+- A Representation Learning Framework for Property Graphs,
+  https://dl.acm.org/doi/abs/10.1145/3292500.3330948
+- Cypher: An Evolving Query Language for Property Graphs,
+  https://dl.acm.org/doi/epdf/10.1145/3183713.3190657
+- RDF and Property Graphs Interoperability:Status and Issues,
+  http://ceur-ws.org/Vol-2369/paper01.pdf
+- Analyzing extended property graphs with Apache Flink,
+  https://dl.acm.org/doi/abs/10.1145/2980523.2980527
+- Modeling and Discovering Vulnerabilities with Code Property Graphs,
+  https://ieeexplore.ieee.org/abstract/document/6956589
+- A Practical Framework for Evaluating the Quality of Knowledge Graph,
+  https://link.springer.com/chapter/10.1007/978-981-15-1956-7_10
+- Knowledge Graph Completeness: A Systematic Literature Review,
+  https://ieeexplore.ieee.org/abstract/document/9344615
+- Learning a Health Knowledge Graph from Electronic Medical Records,
+  https://www.nature.com/articles/s41598-017-05778-z
+- Knowledge graph refinement: A survey of approaches and evaluation
+  methods, https://content.iospress.com/articles/semantic-web/sw218
+- Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short,
+  https://aclanthology.org/D17-1184/
+- A comprehensive overview of knowledge graph completion,
+  https://www.sciencedirect.com/science/article/abs/pii/S095070512200805X
+- LinkClimate: An interoperable knowledge graph platform for climate
+  data,
+  https://www.sciencedirect.com/science/article/pii/S0098300422001649
+- Biological applications of knowledge graph embedding models,
+  https://doi.org/10.1093/bib/bbaa012
+- Constructing knowledge graphs and their biomedical applications,
+  https://doi.org/10.1016/j.csbj.2020.05.017
+- BioTAGME: A Comprehensive Platform for Biological Knowledge Network
+  Analysis,
+  https://www.frontiersin.org/articles/10.3389/fgene.2022.855739/full
+- Application of Medical Knowledge Graphs in Cardiology and
+  Cardiovascular Medicine: A Brief Literature Review,
+  https://doi.org/10.1007/s12325-022-02254-7
+- BioKEEN: a library for learning and evaluating biological knowledge
+  graph embeddings,
+  https://academic.oup.com/bioinformatics/article/35/18/3538/5320556
+- Task-driven knowledge graph filtering improves prioritizing drugs
+  for repurposing,
+  https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04608-y#Sec11
 
 * About the lectureres
 
