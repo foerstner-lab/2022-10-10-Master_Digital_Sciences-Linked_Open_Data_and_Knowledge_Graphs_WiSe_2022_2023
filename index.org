@@ -33,7 +33,6 @@
 - The course is licensed under a CC0 license and you contribution will
   extend it further. I will be persistantly stored at [[https://zenodo.org/][Zenodo]].
 
-
 ** Code of Conduct
 
 - Use welcoming and inclusive language.
@@ -194,7 +193,10 @@ Data-Information-Knowledge-Wisdom (DIKW) Pyramid, Framework, Continuum
 
 *** Reference Research Articles:
 
-- An Introduction to the Resource Description Framework, https://asistdl.onlinelibrary.wiley.com/doi/full/10.1002/bult.105
+- A review of the semantic web field, https://dl.acm.org/doi/10.1145/3397512
+- Knowledge graphs, https://dl.acm.org/doi/10.1145/3418294
+- An Introduction to the Resource Description Framework,
+  https://asistdl.onlinelibrary.wiley.com/doi/full/10.1002/bult.105
 - Resource description framework: metadata and its applications,
   https://dl.acm.org/doi/abs/10.1145/507533.507536
 - The Resource Description Framework (RDF) and its Vocabulary
