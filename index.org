@@ -17,6 +17,8 @@
 
 ** Misc
 
+- Besides this Git repo there is a HedgeDoc pad in which we will use
+  collaboratively but which will not be made public.
 - There are no stupid questions. Please feel free to ask anything at
   anytime.
 - Mistakes are to be expected, respected, inspected, and corrected.
@@ -30,6 +32,7 @@
   - Basic understanding how to use git and Github
 - The course is licensed under a CC0 license and you contribution will
   extend it further. I will be persistantly stored at [[https://zenodo.org/][Zenodo]].
+
 
 ** Code of Conduct
 
@@ -97,16 +100,23 @@ There are three assignments:
 - Google Graph
 - (CYC)
 
-**** Presenting a research paper
+**** 2. Presenting a research paper
 
 - Every participants presents one research paper but teams up with
   somebody to get initial feedback before the presentation in the
-  larger group
+  larger group.
 - There will be a set of publications suggested but it is possible to
-  suggest others
+  suggest others.
 - 20 minutes presenstation time (including 5 min discussion)
-- Can be supported by slides but must not be the case
+- Can be supported by slides but must not be the case.
 - Basic notes are added to the GitHub repo (bullet point list)
+
+**** 3. Performing a project 
+
+- Further information following
+- Done in groups of 2 (or 3 if needed)
+- Presentation at the last session
+- Report will be graded
 
 ** Grading
 
@@ -154,6 +164,16 @@ Data-Information-Knowledge-Wisdom (DIKW) Pyramid, Framework, Continuum
 - Graphs (or Networks)
   - nodes / vertices
   - edges / links  
+
+
+** 2022-10-24
+:PROPERTIES:
+:CREATED:  [2022-10-24]
+:ID:       3befa396-f8a9-4d41-a413-3e653612e0c9
+:END:
+
+- Distribute of research papers
+- Continue to work on topic presentation
 
 * Literature
 
