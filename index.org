@@ -1,8 +1,8 @@
 #+TITLE: Linked Open Data and Knowledge Graphs (Winter semester 2022/2023)
 #+SUBTITLE: [[https://digital-sciences.de][Master Digital Sciences]] at [[https://www.th-koeln.de/][TH Köln]]
 #+AUTHOR: Prof. Dr. Konrad U. Förstner, Ziyad
-#+DATE: 2022-10-10
-#+LICENCE: CC-BY
+#+DATE: 2022-10-17
+#+LICENCE: CC0
 #+LANGUAGE: en
 #+KEYWORDS: Linked Open Data, Knowledge Grapsh, TH Köln
 #+HTML_DOCTYPE: html5
@@ -13,9 +13,12 @@
 #+LATEX_HEADER: \usepackage[nomath]{lmodern}
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./style.css"/>
 
-* House keeping
-** General information
+* General information and course logistics
 
+** Misc
+
+- Besides this Git repo there is a HedgeDoc pad in which we will use
+  collaboratively but which will not be made public.
 - There are no stupid questions. Please feel free to ask anything at
   anytime.
 - Mistakes are to be expected, respected, inspected, and corrected.
@@ -23,11 +26,12 @@
   material, the participation in the course or the exam - please
   contact me.
 - No need to buy any book or other material.
-- Prequires for this course (checked in a survey)
+- Helpful skills for this course for this course 
   - Basic Python coding skills
-  - Basic understanding of the Python library pandas
   - Basic Jupyter Notebooks
   - Basic understanding how to use git and Github
+- The course is licensed under a CC0 license and you contribution will
+  extend it further. I will be persistantly stored at [[https://zenodo.org/][Zenodo]].
 
 ** Code of Conduct
 
@@ -42,33 +46,231 @@ Contact me in case you feel that somebody violates the rules.
 
 ** Learning outcomes
 
+- The course introduces the basic concepts of Linked Open Data (LOD)
+  as well as the construction of knowledge graphs.
+
+- Equiped with this understanding participants will explore real world
+  applications like Wikidata and Open Research Knowledge Graph (ORKG).
+
+- After finishing this course students are able to use, extend and
+  construct knowledge graphs.
+
+** Assingments
+
+There are three assignments:
+- Presenting a basic topic and an application
+- Presenting a research paper
+- Performing a project
+
+**** 1. Presenting a basic topic and an application
+
+- In teams of 2 (or 3)
+- One basic topic and one appliacation
+- 20 minutes presenation + 10 minutes discussion
+- There will be time to work on both at the  2022-10-24
+- Basic topics will be presented at 2022-10-31
+- Applications will be presented at 2022-11-07
+- Also excercises possible
+- Content in markdown and submitted to the GitHub repository; if
+  wanted presentation slides
+- Each team member should present a part of each topic
+
+***** Basic topics
+
+- The Resource Description Framework (RDF)
+- RDF Schema
+- Graphs, Centrality, Graphs Quality
+- SPARQL and Cypher
+- The Web Ontology Language
+- Property Graphs
+- Knowledge Graph Embeddings
+- Serialization
+- URI/URL
+- Schema.org (Anh Huy + Natasha)
+- JSON-LD
+
+***** Applications
+
+- Dbpedia
+- Wikidata
+- ORKG
+- Amazon Product Graph
+- Microsoft Academic Graph (MAG)
+- Google Graph
+- (CYC)
+
+**** 2. Presenting a research paper
+
+- Every participants presents one research paper but teams up with
+  somebody to get initial feedback before the presentation in the
+  larger group.
+- There will be a set of publications suggested but it is possible to
+  suggest others.
+- 20 minutes presenstation time (including 5 min discussion)
+- Can be supported by slides but must not be the case.
+- Basic notes are added to the GitHub repo (bullet point list)
+
+**** 3. Performing a project 
+
+- Further information following
+- Done in groups of 2 (or 3 if needed)
+- Presentation at the last session
+- Report will be graded
+
+** Grading
+
+- Grading will be done based on the project and the project report.
+
 ** Schedule
 
 - First lecture: Monday, October 17, 2022
 - Project presentation: Monday January 12, 2023
-- Submission closing date for the project report: Monday, February 20, 2023, 21:00
+- Submission closing date for the project report: Monday, February 20,
+  2023, 21:00
+
+* Sessions
+
+** 2022-10-17
+
+*** Data / Information / Knowldge / Wisdom
+
+#+CAPTION: Ackoff Pyramid
+#+NAME:   
+#+ATTR_HTML: :width 800
+ https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/DIKW_Pyramid.svg/1280px-DIKW_Pyramid.svg.png
+
+https://link.springer.com/referenceworkentry/10.1007/978-3-319-32001-4_331-1
+
+Data-Information-Knowledge-Wisdom (DIKW) Pyramid, Framework, Continuum
+
+- "Data are the symbolic representations of observable properties"
+- "Information is relevant, or usable, or significant, or meaningful, or processed, data"
+- "Knowledge is know-how, for example, how a system works. It is what
+   makes possible the transformation of information into
+   instructions. It makes control of a system possible. To control a
+   system is to make it work efficiently." (Ackoff 1980)
+- "Wisdom adds value, which requires the mental function we call
+  judgement. The value of an act is never independent of the actor…
+  [ethical and aesthetic values] are unique and personal.
+  wisdom-generating systems are ones that man will never be able to
+  assign to automata. It may well be that wisdom, which is essential
+  to the effective pursuit of ideals, and the pursuit of ideals
+  itself, are the characteristics that differentiate man from
+  machines." (Ackoff 1989, 9)
+
+*** Basic terms (Thinks-Pair-Share)
+
+- What is knowledge?
+- What are graphs?
+- How do we represent knowledge
+
+*** Graphs
+
+- Graphs (or Networks)
+  - nodes / vertices
+  - edges / links  
+
+*** Building a Concept Map of Hinzler (20 min, until 16:27 in pairs)
+
+- https://mermaid.live/edit#pako:eNqdVs1u2zAMfhXBpw5o-wA5DCiaFB3Wot3SYQenB8WmbW22ZEhy06zuu4-yfhwndtIth0j6RIoU-ZHyW5SIFKJZlJVikxRUavI0X3GCv0TwBGp9T2sVX9s5MYtnuy1kTjn7A-lXLjYlpDnEDx4iAXPCmUga9a0BpZngKl5FNwYgHjlTn1aRE6VKiYRRDekNQMl4ruKrABGPoXlylWWQaKdWS1ELxez5jzuL58FtwlU8XoOEBF4g_Q55U1KJSoAHgEyAIUp2YWP0kWoNMhyLmlybCy26CTm7pXUN3LjYX0msf6GjRuphbSbk7KkYSjCeUXPOFzs6tKRrwCjGd3Z0qNpWa1GqeGlHh26ETFX80_x7bcZ_o5UOiu_sguwKFMAklUnBElqW26WWTaIbifZuBxuk3_GxlEA1e2F6G1-HqQ_IK0YUb7Kwo0MbzrR6yO6BmtDEP8ySiIw4IOQoxw0Me7CI2XJQ70VwQihl7ogpDdMQTsyRhJJ2DChYbSK7DznZlCGNJCYPub2EvOryOfegYTzxsL9ixzv06QloYhIZLzxCPLQvegdU8qGoh3qCanjVc0D6pGjNENUAJCA-_6YWynjZDT2LleCIProJ4gdVTC4uPrcSagkKT2tHKnhcpYCyJloQytUGZLtXzFZnqid0BzCFZ1a1ZAoLSmRtKMbjWjwpmxRUO9ISjipyLGilqNyip-juQQ7-S9kn9t8uutuVTmi2BwzwKZz0FFI0cyIxQ6xTpBKmje3jnQZc5petI95JMc_FXWIcZtB6khr_9_kwbNi9y64dTm2PdvIp4aneNyKPCySFeXwahZ63g8bqw7aLdVqNsrlBFlX7PDjefm0oVQ0m2th-N0wXre-rH1BlvB3ppB9QpCw1LAwd3Ts6bN4-JqpTRtUpe4fvch_-4ZETkhXdkrWhamjvu_wYTXcIgH2XPyLpHudTomvIGfplk-Ge65B8S8xOzgpsLDfGN90DHiouBPyIoRHBvv4VQDvy5vUGfPw6PVWIzbj4-NPpvNIbAAzX2HO54tF5VIGskEH4KflmTlpFuoAKVtEMpylktCn1KlrxdxSljRbLLU-iWUZLBedRU6fYG-aM5pJWe-giZVrIaIbEQgy61b39Zu0-Xd__AiX95tY
+- https://mermaid.live/edit#pako:eNqFVtuOmzAQ_RWL591228c8VEqVdhV1t1vtRXlwKmRgAlbARrYJjZb99w5gAwGSREoyl8PgOTPM8O6FMgJv4e1SWYYJU4a8rraC4EdDxoThoV9CQF-sQjYQ_G39KRd7iPyIGUYfGpmsULbe59VPP1YsTzRFkbSi9UlhZCpjDpr2ovVlLEy4AF8Bi1iQQnN3ayTOSMruFE-bB4pfq62f1xS_VntD7a3TyrKkm83GahHLUrpaPv5xcdYYZ-3ixFLGKdD75s_aTJD6OctB0Veeke-gBNw-ANyQr3d3XyxGsbIlBAUS9WwkBdLX5URrNeqycZmDYc21j1awdh0mSL4vVUxb8ROKXRaG-RiaxZCBMLQuAOl1lznf8ybyxgquDjkI0Jo-tf_uftgFWNdQihByo-lLoxOnu0yh0CzgKTdH-tzL1hvKLAMVcpb6eAxu6lL3NuJsFr1c06Wr0l7IMoUoBtc9v5yB3A97yHpbG_lMfoMppdo7t8Cu1rT5tZY6hKbNr6MFeJwYiKgTxkfo7-3o5gpCBGIx_EI4jVqBSEV665l8yO3ttwoJrWwGF1AKcgUauap6_zD5BoRl0VwbTeSuanO8DGkoGTDSIpggAR5pPr9zaEfbdFy42xrGha4Gz_sZaKT4AYMHx2o4VSZjZppNP2UuRRZ15DHFk-g1HA4yPWCz75TMqvGxxxEmF0zO3kfoeSPIf6h4gBedKscK59h4eLrrLJkVDrdrkDcHWa6dq9BQDamZzb2nys6F81n30JkH_XTm1HCuCR4C_rEsx9mNdZsQNTxcfUXCNM5gllajAXcFPbc8hlwIgEhfQPWjtkbnSh44FsiaNdlJdZ1GxrMWOZiQ88d2tBjAjpYCiSEmgQr31Dw-Y3uoS1kz6JbF6eo4mRrYU0xPmvi0JTswM3iC5pkajf9ud3a5GVk__acbbZYJNwBIJrVJj5VbjvPZhRJrEhFs4G7Rnm9AC8YGbDd19y7QdCfU7WmfSdzp3YKfOHH_o7f1u3_vxsOOzhiP8K3ovbZtPSxLBltvgWIEO1akZuttxQdCWWHky1GE3mLHUg03XpFjirDiDA-bjaw_Im6k8hZGFWiDRntsX7-at7CP_9w3Ykc
+
+** 2022-10-24
+:PROPERTIES:
+:CREATED:  [2022-10-24]
+:ID:       3befa396-f8a9-4d41-a413-3e653612e0c9
+:END:
+
+- Selecte research papers for the presentation
+- Continue to work on topic presentation
 
 * Literature
 
 ** Books
 
-- Knowledge Graphs - Methodology, Tools and Selected Use Cases; Dieter
-  Fensel, Umutcan Şimşek, Kevin Angele, Elwin Huaman, Elias Kärle,
-  Oleksandra Panasiuk, Ioan Toma, Jürgen Umbrich, Alexander Wahler,
-  2020, 1st ed. 2020, Springer International Publishing,
-  ISBN: 978-3-030-37438-9
+- "Knowledge Graphs - Methodology, Tools and Selected Use Cases";
+  Dieter Fensel, Umutcan Şimşek, Kevin Angele, Elwin Huaman, Elias
+  Kärle, Oleksandra Panasiuk, Ioan Toma, Jürgen Umbrich, Alexander
+  Wahler, 2020, 1st ed. 2020, Springer International Publishing, ISBN:
+  978-3-030-37438-9,
+  https://link.springer.com/book/10.1007/978-3-030-37439-6
 
-- Shaping Knowledge from Antiquity to the Semantic Web Richard
-  Gartner, 1st ed. 2016, Springer International Publishing, ISBN:
-  978-3-319-40891-0
+- "Metadata - Shaping Knowledge from Antiquity to the Semantic Web",
+  Richard Gartner, 1st ed. 2016, Springer International Publishing,
+  ISBN: 978-3-319-40891-0, https://link.springer.com/book/10.1007/978-3-319-40893-4
 
 ** Research articles
 
-TBA
+*** Reference Research Articles:
 
-* About me
+- A review of the semantic web field, https://dl.acm.org/doi/10.1145/3397512
+- Knowledge graphs, https://dl.acm.org/doi/10.1145/3418294
+- An Introduction to the Resource Description Framework,
+  https://asistdl.onlinelibrary.wiley.com/doi/full/10.1002/bult.105
+- Resource description framework: metadata and its applications,
+  https://dl.acm.org/doi/abs/10.1145/507533.507536
+- The Resource Description Framework (RDF) and its Vocabulary
+  Description Language RDFS,
+  https://link.springer.com/chapter/10.1007/978-3-540-24750-0_3
+- Web Ontology Language: OWL,
+  https://link.springer.com/chapter/10.1007/978-3-540-24750-0_4
+- Web Ontology Language (OWL) https://corescholar.libraries.wright.edu/cgi/viewcontent.cgi?article=1183&context=cse
+- Cooking the Semantic Web with the OWL API, https://link.springer.com/content/pdf/10.1007/978-3-540-39718-2_42.pdf ()
+- Knowledge Graphs: New Directions for Knowledge Representation on the Semantic Web,
+  https://drops.dagstuhl.de/opus/volltexte/2019/10328/
 
-  You can find a short bio on my [[https://konrad.foerstner.org/][website.]]
+*** Selection of publications for presentation*
+
+- Application of Resource Description Framework to Personalise
+  Learning: Systematic Review and Methodology,
+  https://infedu.vu.lt/journal/INFEDU/article/70/info
+- Semantic Web and Knowledge Graphs for Industry 4.0,
+  https://www.mdpi.com/2076-3417/11/11/5110/htm
+- A Representation Learning Framework for Property Graphs,
+  https://dl.acm.org/doi/abs/10.1145/3292500.3330948
+- Cypher: An Evolving Query Language for Property Graphs,
+  https://dl.acm.org/doi/epdf/10.1145/3183713.3190657
+- RDF and Property Graphs Interoperability:Status and Issues,
+  http://ceur-ws.org/Vol-2369/paper01.pdf
+- Analyzing extended property graphs with Apache Flink,
+  https://dl.acm.org/doi/abs/10.1145/2980523.2980527
+- Modeling and Discovering Vulnerabilities with Code Property Graphs,
+  https://ieeexplore.ieee.org/abstract/document/6956589
+- A Practical Framework for Evaluating the Quality of Knowledge Graph,
+  https://link.springer.com/chapter/10.1007/978-981-15-1956-7_10
+- Knowledge Graph Completeness: A Systematic Literature Review,
+  https://ieeexplore.ieee.org/abstract/document/9344615
+- Learning a Health Knowledge Graph from Electronic Medical Records,
+  https://www.nature.com/articles/s41598-017-05778-z
+- Knowledge graph refinement: A survey of approaches and evaluation
+  methods, https://content.iospress.com/articles/semantic-web/sw218
+- Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short,
+  https://aclanthology.org/D17-1184/
+- A comprehensive overview of knowledge graph completion,
+  https://www.sciencedirect.com/science/article/abs/pii/S095070512200805X
+- LinkClimate: An interoperable knowledge graph platform for climate
+  data,
+  https://www.sciencedirect.com/science/article/pii/S0098300422001649
+- Biological applications of knowledge graph embedding models,
+  https://doi.org/10.1093/bib/bbaa012
+- Constructing knowledge graphs and their biomedical applications,
+  https://doi.org/10.1016/j.csbj.2020.05.017
+- BioTAGME: A Comprehensive Platform for Biological Knowledge Network
+  Analysis,
+  https://www.frontiersin.org/articles/10.3389/fgene.2022.855739/full
+- Application of Medical Knowledge Graphs in Cardiology and
+  Cardiovascular Medicine: A Brief Literature Review,
+  https://doi.org/10.1007/s12325-022-02254-7
+- BioKEEN: a library for learning and evaluating biological knowledge
+  graph embeddings,
+  https://academic.oup.com/bioinformatics/article/35/18/3538/5320556
+- Task-driven knowledge graph filtering improves prioritizing drugs
+  for repurposing,
+  https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04608-y#Sec11
+
+* About the lectureres
+
+- [[https://konrad.foerstner.org/][Konrad Förstner's website]]
   
 * Contact
   - Email: foerstner@zbmed.de
