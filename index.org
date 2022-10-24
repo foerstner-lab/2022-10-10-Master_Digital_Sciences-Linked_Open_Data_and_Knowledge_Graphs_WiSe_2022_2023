@@ -1,8 +1,8 @@
 #+TITLE: Linked Open Data and Knowledge Graphs (Winter semester 2022/2023)
 #+SUBTITLE: [[https://digital-sciences.de][Master Digital Sciences]] at [[https://www.th-koeln.de/][TH Köln]]
 #+AUTHOR: Prof. Dr. Konrad U. Förstner, Ziyad
-#+DATE: 2022-10-10
-#+LICENCE: CC-BY
+#+DATE: 2022-10-17
+#+LICENCE: CC0
 #+LANGUAGE: en
 #+KEYWORDS: Linked Open Data, Knowledge Grapsh, TH Köln
 #+HTML_DOCTYPE: html5
@@ -13,8 +13,9 @@
 #+LATEX_HEADER: \usepackage[nomath]{lmodern}
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./style.css"/>
 
-* House keeping
-** General information
+* General information and course logistics
+
+** Misc
 
 - There are no stupid questions. Please feel free to ask anything at
   anytime.
@@ -23,11 +24,12 @@
   material, the participation in the course or the exam - please
   contact me.
 - No need to buy any book or other material.
-- Prequires for this course (checked in a survey)
+- Helpful skills for this course for this course 
   - Basic Python coding skills
-  - Basic understanding of the Python library pandas
   - Basic Jupyter Notebooks
   - Basic understanding how to use git and Github
+- The course is licensed under a CC0 license and you contribution will
+  extend it further. I will be persistantly stored at [[https://zenodo.org/][Zenodo]].
 
 ** Code of Conduct
 
@@ -42,33 +44,143 @@ Contact me in case you feel that somebody violates the rules.
 
 ** Learning outcomes
 
+- The course introduces the basic concepts of Linked Open Data (LOD)
+  as well as the construction of knowledge graphs.
+
+- Equiped with this understanding participants will explore real world
+  applications like Wikidata and Open Research Knowledge Graph (ORKG).
+
+- After finishing this course students are able to use, extend and
+  construct knowledge graphs.
+
+** Assingments
+
+There are three assignments:
+- Presenting a basic topic and an application
+- Presenting a research paper
+- Performing a project
+
+**** 1. Presenting a basic topic and an application
+
+- In teams of 2 (or 3)
+- One basic topic and one appliacation
+- 20 minutes presenation + 10 minutes discussion
+- There will be time to work on both at the  2022-10-24
+- Basic topics will be presented at 2022-10-31
+- Applications will be presented at 2022-11-07
+- Also excercises possible
+- Content in markdown and submitted to the GitHub repository; if
+  wanted presentation slides
+- Each team member should present a part of each topic
+
+***** Basic topics
+
+- The Resource Description Framework (RDF)
+- RDF Schema
+- Graphs, Centrality, Graphs Quality
+- SPARQL and Cypher
+- The Web Ontology Language
+- Property Graphs
+- Knowledge Graph Embeddings
+- Serialization
+- URI/URL
+- Schema.org (Anh Huy + Natasha)
+- JSON-LD
+
+***** Applications
+
+- Dbpedia
+- Wikidata
+- ORKG
+- Amazon Product Graph
+- Microsoft Academic Graph (MAG)
+- Google Graph
+- (CYC)
+
+**** Presenting a research paper
+
+- Every participants presents one research paper but teams up with
+  somebody to get initial feedback before the presentation in the
+  larger group
+- There will be a set of publications suggested but it is possible to
+  suggest others
+- 20 minutes presenstation time (including 5 min discussion)
+- Can be supported by slides but must not be the case
+- Basic notes are added to the GitHub repo (bullet point list)
+
+** Grading
+
+- Grading will be done based on the project and the project report.
+
 ** Schedule
 
 - First lecture: Monday, October 17, 2022
 - Project presentation: Monday January 12, 2023
-- Submission closing date for the project report: Monday, February 20, 2023, 21:00
+- Submission closing date for the project report: Monday, February 20,
+  2023, 21:00
+
+* Sessions
+
+** 2022-10-17
+
+#+CAPTION: Ackoff Pyramid
+#+NAME:   
+#+ATTR_HTML: :width 800
+ https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/DIKW_Pyramid.svg/1280px-DIKW_Pyramid.svg.png
+
+*** Data / Information / Knowldge / Wisdom
+
+https://link.springer.com/referenceworkentry/10.1007/978-3-319-32001-4_331-1
+
+Data-Information-Knowledge-Wisdom (DIKW) Pyramid, Framework, Continuum
+
+- "Data are the symbolic representations of observable properties"
+- "Information is relevant, or usable, or significant, or meaningful, or processed, data"
+- "Knowledge is know-how, for example, how a system works. It is what
+   makes possible the transformation of information into
+   instructions. It makes control of a system possible. To control a
+   system is to make it work efficiently." (Ackoff 1980)
+- "Wisdom adds value, which requires the mental function we call
+  judgement. The value of an act is never independent of the actor…
+  [ethical and aesthetic values] are unique and personal.
+  wisdom-generating systems are ones that man will never be able to
+  assign to automata. It may well be that wisdom, which is essential
+  to the effective pursuit of ideals, and the pursuit of ideals
+  itself, are the characteristics that differentiate man from
+  machines." (Ackoff 1989, 9)
+
+*** Graphs
+
+- Graphs (or Networks)
+  - nodes / vertices
+  - edges / links  
 
 * Literature
 
 ** Books
 
-- Knowledge Graphs - Methodology, Tools and Selected Use Cases; Dieter
-  Fensel, Umutcan Şimşek, Kevin Angele, Elwin Huaman, Elias Kärle,
-  Oleksandra Panasiuk, Ioan Toma, Jürgen Umbrich, Alexander Wahler,
-  2020, 1st ed. 2020, Springer International Publishing,
-  ISBN: 978-3-030-37438-9
+- "Knowledge Graphs - Methodology, Tools and Selected Use Cases";
+  Dieter Fensel, Umutcan Şimşek, Kevin Angele, Elwin Huaman, Elias
+  Kärle, Oleksandra Panasiuk, Ioan Toma, Jürgen Umbrich, Alexander
+  Wahler, 2020, 1st ed. 2020, Springer International Publishing, ISBN:
+  978-3-030-37438-9,
+  https://link.springer.com/book/10.1007/978-3-030-37439-6
 
-- Shaping Knowledge from Antiquity to the Semantic Web Richard
-  Gartner, 1st ed. 2016, Springer International Publishing, ISBN:
-  978-3-319-40891-0
+- "Metadata - Shaping Knowledge from Antiquity to the Semantic Web",
+  Richard Gartner, 1st ed. 2016, Springer International Publishing,
+  ISBN: 978-3-319-40891-0, https://link.springer.com/book/10.1007/978-3-319-40893-4
 
 ** Research articles
 
+*** Introduction and Basics
+
+***
+
 TBA
 
-* About me
+* About the lectures
 
-  You can find a short bio on my [[https://konrad.foerstner.org/][website.]]
+- [[https://konrad.foerstner.org/][Konrad Förstner's website]]
   
 * Contact
   - Email: foerstner@zbmed.de
