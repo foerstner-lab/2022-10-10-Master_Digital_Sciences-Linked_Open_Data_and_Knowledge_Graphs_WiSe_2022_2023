@@ -4,5 +4,5 @@
 - Add images ideally as [SVG
   files](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) (for
   example created with [inkscape](https://inkscape.org) or [
-  diagrams.net](https://app.diagrams.net).
+  diagrams.net](https://app.diagrams.net)).
 - Use [APA style](https://libguides.murdoch.edu.au/APA) for citations.
