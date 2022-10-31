@@ -23,7 +23,7 @@
 
 Schema.org is a website that publishes a vocabulary (which provides specific terms to define different data types) and documentation on how to use this vocabulary in order to define structured data on web pages.
 
-> ![image info](../images/schema_homepage.PNG)  
+> ![image info](./images/schema_homepage.PNG)  
 *Image 1: The homepage for schema.org*
 
 Although the purpose of this vocabulary is to improve the machine-readability of web pages, its main application is aimed at helping search engines understand the content, and not necessarily for virtual assistants or intelligent agents.
