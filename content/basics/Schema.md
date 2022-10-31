@@ -34,7 +34,7 @@ In order to provide information about the actual content of a web page, you need
 
 This was because the different vocabularies used were very non-standardized and specific to the different applications. For example, the FOAF vocabulary pictured below could only be used to describe social networks.
 
-> ![image info](../images/FOAF.png)  
+> ![image info](./images/FOAF.png)  
 *Image 2: The FOAF vocabulary for describing social networks.*  
 
 Webmasters often found it too confusing to learn the disparate vocabularies for each individual application, and therefore elected to just skip the hassle of implementing structured data on their websites.
@@ -43,7 +43,7 @@ However, structured data is very helpful in particular for search engines, since
 
 Thus in June 2011, 3 search engines (Google, Bing and Yahoo) started a collaboration to create schema.org. Their goal was to create a single, shared, consistent vocabulary schema for structured data, where just one vocabulary would cover and be integrated between all of the different kinds of data types and topics, and would work correctly with every different search engine.
 
-> ![image info](../images/schema_announcement.PNG)  
+> ![image info](./images/schema_announcement.PNG)  
 *Image 3: The first introduction of the schema.org initiative*
 
 ### Who is schema.org for? 
@@ -52,26 +52,26 @@ The newly created schema.org website would contain extensive documentation, guid
 
 The focus was on making the process as easy and accessible as possible in order to encourage uptake, which lead to a high rate of adoption on webpages: in 2015, 31.3% of webpages incorporated schema.org markup, including many big company websites. (Guha, Brickley, and Macbeth, 2016).
 
-> ![image info](../images/sites_using.png)  
+> ![image info](./images/sites_using.png)  
 *Image 4: A list of sites offering structured data via schemas *
 
 ### Example Use Cases
 
 The main use of the schema.org structured data is in what Google calls "rich snippets". 
 
-> ![image info](../images/cake_rich_snippet.PNG)  
+> ![image info](./images/cake_rich_snippet.PNG)  
 *Image 5: An example of a rich snippet for recipes retrieved from google.com*
 
 The benefit to the search engine user, is that their search results are more rich, more specific, and easier to parse, as the most important content of the webpage is displayed prominently on the search result, in a nicely formatted way.
 
 The search engines themselves say that they are able to provide more targeted, relevant results, and a better user experience, which increases the likelihood of link click-through and engaging with their results.
 
-> ![image info](../images/th_rich_snippet.png)  
+> ![image info](./images/th_rich_snippet.png)  
 *Image 6: A rich snippet for TH Köln*
 
 Furthermore, although schema.org's vocabulary was originally intended for use in search engine results, it has also developed into being used by automatic assistants. For example, when you get an email about a flight or restaurant, and it gets automatically imported into your Google calendar.
 
-> ![image info](../images/film_rich_snippet.png)  
+> ![image info](./images/film_rich_snippet.png)  
 *Image 7: A rich snippet from a ticket booking for the movie 'No Time to Die'*
 
 But how is all of this actually implemented in the code?
@@ -88,7 +88,7 @@ Schemas are a set of types, each associated with a set of properties and specifi
 * 462 Enumeration Members  
 
 As an example, the Type *"Person"* can contain these kind of properties as structured data as per documentation:
-> ![image info](../images/PERSON_PROPERTIES.png)  
+> ![image info](./images/PERSON_PROPERTIES.png)  
 *Image 8: The properties of the type '[Person](https://schema.org/Person)*
 
 ## Type of Schemas
@@ -118,20 +118,20 @@ George Bush, the 41st President of the United States is the father of George W. 
 ```
 could be enriched through structured data with the following types and properties:
 
-> ![image info](../images/01_PERSON_EXAMPLE.png)  
+> ![image info](./images/01_PERSON_EXAMPLE.png)  
 *Image 9: The types and properties of 'George Bush'*
 
 This can be illustrated in the following examples for different formats:
 #### Microdata
-> ![image info](../images/02_PERSON_EXAMPLE_MICRO.png)  
+> ![image info](./images/02_PERSON_EXAMPLE_MICRO.png)  
 *Image 10: The types and properties implemented in the microdata format within the HTML source code*
 
 #### RDFa
-> ![image info](../images/03_PERSON_EXAMPLE_RDFA.png)  
+> ![image info](./images/03_PERSON_EXAMPLE_RDFA.png)  
 *Image 11: The types and properties implemented in the RDFa format within the HTML source code*
 
 #### JSON-LD
-> ![image info](../images/04_PERSON_EXAMPLE_JSONLD.png)  
+> ![image info](./images/04_PERSON_EXAMPLE_JSONLD.png)  
 *Image 12: The types and properties implemented in the JSON-LD format within a script tag in a modular manner*
 
 ## Demo
@@ -161,7 +161,7 @@ The intention of schema.org was always to have a process of "incremental complex
 
 Schema.org would provide the "common core" of key topics and vocabulary, making it easy to get started, while the community creates new vocabulary "extensions", adding optional specialised detail for specific applications.
 
-> ![image info](../images/extension.png)  
+> ![image info](./images/extension.png)  
 *Image 13: Extensions to the original schema.org implementation*
 
 Some of these extensions ended up being integrated into the core schema.org, such as IPTC's rNews extension, which added the "NewsArticle" type to the core vocabulary.
@@ -170,14 +170,14 @@ Some of these extensions ended up being integrated into the core schema.org, suc
 
 In 2014 the schema.org schemas were published openly on [https://github.com/schemaorg](Github) under a Creative Commons Attribution-ShareAlike Licence. 
 
-> ![image info](../images/github.PNG)  
+> ![image info](./images/github.PNG)  
 *Image 14: The schema.org Github*
 
 Schema.org went from being run by the Web engine companies, to becoming a collaborative, community project, where anyone can participate via the forums, mailing lists or on Github - from simply reporting problems to modifying the schemas.
 
 Although exact reports of schema.org usage today are difficult to quantify, whenever you Google a topic and get rich results back, you can see the evidence of the impact and widespread use of schema.org's structured data.
 
-> ![image info](../images/schema_conclusion.jpg)  
+> ![image info](./images/schema_conclusion.jpg)  
 *Image 15: The properties of the type 'question' from the general vocabulary from schema.org*
 
 ---
