@@ -1,5 +1,5 @@
 # Schema.org
-
+> by Natasha Randall and Anh Huy Matthias Tran
 ### Table of Contents
 - [Introduction](#introduction)
     - [What is schema.org](#what-is-schemaorg)
