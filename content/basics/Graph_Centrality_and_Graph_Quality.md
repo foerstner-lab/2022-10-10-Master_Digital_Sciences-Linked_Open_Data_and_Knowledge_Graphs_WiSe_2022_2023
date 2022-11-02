@@ -16,11 +16,11 @@ Terminology Definition (finite Graphs):
 - V = {V1, V2, V3, V4}
 - E = {E1, E2, E3, E4}
 
-![alt text](imges/graph03.png)
+![alt text](images/graph03.png)
 
 With walks you relate how to get from one vertice to another
 
-![alt text](imges/walks.png)
+![alt text](images/walks.png)
 
 From [`5`](https://www2.math.utah.edu/mathcircle/notes/MC_Graph_Theory.pdf) [p.3]
  
@@ -49,10 +49,7 @@ In the paper "A Graph-theoretic perspective on centrality" [`1`], Stephen P. Bor
 - These measures use the number/amount of walks that join the nodes to eachother
     - Also called volume measures   
 - According to Freeman[[`2`]](https://www.bebr.ufl.edu/sites/default/files/Centrality%20in%20Social%20Networks.pdf) degree centrality is the number of other nodes, a node is adjacent to.
-- Mathematically, it can be stated as followed:
-$
-c_i^{DEG} = \sum_j a_{ij}
-$
+- Mathematically, it can be stated as followed: $c_i^{DEG} = \sum_j a_{ij}$
 - Simply put: the degree-like measurements take into account how many adjacent nodes a node does have. The node with the highest amount of adjacent nodes has the highest degree centrality.
 - The node with the highest amount of adjacent nodes will have the biggest reach inside the graph.
 
@@ -61,10 +58,7 @@ $
 - These measures use the length of the walks the nodes are involves in
     - Also called length measures
 - Freeman[[`2`]](https://www.bebr.ufl.edu/sites/default/files/Centrality%20in%20Social%20Networks.pdf) defines closeness centrality as the sum of all geodesic distances from a given node to all other nodes
-- Mathematically, it can be stated as followed:
-$
-c_i^{CLO} = \sum_j d_{ij}
-$
+- Mathematically, it can be stated as followed: $c_i^{CLO} = \sum_j d_{ij}$
 - The closeness centrality is the mean distance of a node to other nodes.
 - In closeness centrality larger values are refering to less centrality or importance inside the graph. Therefore, the closeness measures decentrality, rather than centrality.
 - Simply put: the closeness-like measurements point out the importance of a node inside a graph. The smaller the closeness centrality, the closer a node is to all other nodes.
@@ -73,10 +67,7 @@ $
 - These measures use the number of walks that pass through a node
     - Also called medial measures
 - Betweenness-centrality is the sum of walks, any node need another node to reach a desired node.
-- Mathematically, it can be stated as followed:
-$
-c_i^{BET} = \sum_i \sum_j \frac{d_{ikj}}{g_{ij}}
-$
+- Mathematically, it can be stated as followed: $c_i^{BET} = \sum_i \sum_j \frac{d_{ikj}}{g_{ij}}$
 - Simply put: betweenness-like measurements analyze how many times a node occurs in the geodesic path of two nodes. Therefore, nodes with a high betweenness are important for the graph flow. It is worth analyzing betweenness-like measures to understand the importance of certain nodes and counter errors or performance issues when deleting nodes.
 
 #### Other centrality measures used by Neo4j [`4`](https://neo4j.com/developer/graph-data-science/centrality-graph-algorithms/)
