@@ -16,11 +16,11 @@ Terminology Definition (finite Graphs):
 - V = {V1, V2, V3, V4}
 - E = {E1, E2, E3, E4}
 
-![alt text](img/graph03.png)
+![alt text](imges/graph03.png)
 
 With walks you relate how to get from one vertice to another
 
-![alt text](img/walks.png)
+![alt text](imges/walks.png)
 
 From [`5`](https://www2.math.utah.edu/mathcircle/notes/MC_Graph_Theory.pdf) [p.3]
  
