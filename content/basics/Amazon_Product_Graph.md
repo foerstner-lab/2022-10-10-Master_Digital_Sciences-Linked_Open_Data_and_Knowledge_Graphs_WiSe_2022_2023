@@ -151,7 +151,20 @@ and new product types and attribute values for each product in P (Product).
               computed and used as features.
 
 
-
+## Lesson we Learnt
+  - reconsider the way to model taxonomy
+      - → use knowledge graphs instead of tree-like structures
+          - Some items may have multiple parents or multiple types
+      - infer other types by relationships to other products
+  - aggressive data cleaning to reduce noisy data and to improve the overall quality
+  - use more than just text
+      - Learn by product images
+      - web extraction
+      
+## Conclusion
+  - AutoKnow improves completeness, accuracy, and consistency of
+  data comparing to Catalog.
+  - Further improvements by going further and deeper into product graph construction
 
 
 
