@@ -151,4 +151,4 @@ Finally, the data used in this study were 273,147 patient records from an Emerge
 
 Therefore, further development of this research should use a much broader scale of input data from different hospitals. However, even given the limitations of the study, the results from the Knowledge Graph generating algorithms were extremely impressive. The scale of what was achieved by a relatively easy-to-implement automated system, when compared to the laboriously manually constructed Google Health Knowledge Graph, reveals an incredibly promising result.
 
-> ![image info](./images/natasha_12.png)  
+> ![image info](./images/natasha_12.PNG)  
