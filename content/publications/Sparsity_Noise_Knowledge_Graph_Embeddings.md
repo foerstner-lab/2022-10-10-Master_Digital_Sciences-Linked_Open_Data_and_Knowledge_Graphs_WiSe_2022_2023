@@ -1,7 +1,8 @@
 # Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short
 by Anh Huy Matthias Tran  
+``` 
 	- The presentation notes for the discussion about the Paper 'Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short' by Jay Pujara, Eriq Augustine & Lise Getoor on the 28.11.2022
-
+```
 
 ## 1. INTRODUCTION
 	- KG as essential component for question answering, decision support, enable exploration and discovery
