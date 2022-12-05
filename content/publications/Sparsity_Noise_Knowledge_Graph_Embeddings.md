@@ -1,7 +1,7 @@
 # Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short
 
-```
-The presentation notes for the discussion about the Paper 'Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short' yb Jay Pujara, Eriq Augustine & Lise Getoor on 
+``` 
+The presentation notes for the discussion about the Paper 'Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short' yb Jay Pujara, Eriq Augustine & Lise Getoor on the 28.11.2022
 ```
 
 ## 1. INTRODUCTION
