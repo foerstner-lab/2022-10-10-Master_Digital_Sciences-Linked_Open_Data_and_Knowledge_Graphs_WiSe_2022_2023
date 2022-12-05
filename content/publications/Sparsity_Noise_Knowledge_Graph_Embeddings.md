@@ -1,5 +1,9 @@
 # Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short
 
+```
+The presentation notes for the discussion about the Paper 'Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short' yb Jay Pujara, Eriq Augustine & Lise Getoor on 
+```
+
 ## 1. INTRODUCTION
 	- KG as essential component for question answering, decision support, enable exploration and discovery
 	- Initial effort: KG creation from structured information sourced or heavy manual curation
