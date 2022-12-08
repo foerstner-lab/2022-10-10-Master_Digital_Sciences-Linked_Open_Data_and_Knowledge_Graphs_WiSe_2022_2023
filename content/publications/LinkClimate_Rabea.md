@@ -1,7 +1,7 @@
 # Link Climate - Stichpunkte
 
 
-![Link Climate Paper](/images/11-LinkClimate.png)
+![Link Climate Paper](images/11-LinkClimate.png)
 ![Paper Topic](images/01-LinkClimate.png)
 
 While it becomes more and more important to understand and analyze the changes in our climate 
@@ -108,7 +108,7 @@ a usability test has been undertaken to obtain first-hand feedback from testing 
 To use the query service for the climate database, users have to add `/sparql` to the SPARQL endpoint.
 
 
-![Conclusion](/images/11-LinkClimate.png)
+![Conclusion](images/11-LinkClimate.png)
 13. Conclusion
 
 To summarize the purpose of this paper and LinkClimate: it targets online climate data, which contains data 
@@ -117,4 +117,4 @@ and construct a climate Knowledge Graph to store them. The Knowledge Graph is th
 with the dynamic data sources and published on an Open Linked Data platform, publicly available on the Web. 
 Unfortunately only available by request.
 
-![Reference](/images/12-LinkClimate.png)
+![Reference](images/12-LinkClimate.png)
