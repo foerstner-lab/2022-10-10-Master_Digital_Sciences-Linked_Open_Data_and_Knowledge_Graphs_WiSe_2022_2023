@@ -1,8 +1,8 @@
 # Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short
 by Anh Huy Matthias Tran  
-``` 
-The presentation notes for the discussion about the Paper 'Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short' by Jay Pujara, Eriq Augustine & Lise Getoor on the 28.11.2022
-```
+
+The presentation notes for the discussion about the research paper *'Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short'*  by Jay Pujara, Eriq Augustine & Lise Getoor held on the 28.11.2022.
+
 
 ## 1. INTRODUCTION
 	- KG as essential component for question answering, decision support, enable exploration and discovery
@@ -80,7 +80,7 @@ The presentation notes for the discussion about the Paper 'Sparsity and Noise: W
 		○ earlier iteration of NELL
 		○ benchmark for probalistic models
 	- Compare vital statistics of these six data sets
-
+> ![image info](./images/paper_sparsity_noise_fig1.png)  
 ### 3.1 SIZE AND SAMPLING
 	- Freebase
 		○ largest KG with more Facts (T)
@@ -107,7 +107,8 @@ The presentation notes for the discussion about the Paper 'Sparsity and Noise: W
 	- We define the entity and relations probabilities as the probability that:
 		○ a randomly selected triplle will contain a particular relation or entity
 	- Formally:
-	- 
+> ![image info](./images/paper_sparsity_noise_fig2.png)  
+
 	- Compute: entity entropy (EE) and relationship entropy (RE) for each dataset
 	- Higher entropy values: -> more uniform distribution of facts across entities and relations
 	- lower values: -> biases in facts
@@ -126,16 +127,15 @@ The presentation notes for the discussion about the Paper 'Sparsity and Noise: W
 		○ NELL165 more diverse E, less diverse R
 	- All KG: much higher EE than RE
 		○ since they use manually defined set of relations but many diverse entities
-
+> ![image info](./images/paper_sparsity_noise_fig3.png)  
 ### 3.3 SPARSITY
 
 	- KG have differing levels of factual information for each entity/relation
 	- Sparsity metric: Information Density
 		○ average triples per entity or relation
+> ![image info](./images/paper_sparsity_noise_fig4.png)  
 
 	- Compare datasets with: Entity Density (ED) and Relational Density (RD)
-
-
 	- Most datasets have similar ED
 	- FB15K much higher ED
 	- NELL165 much lower ED
@@ -144,7 +144,7 @@ The presentation notes for the discussion about the Paper 'Sparsity and Noise: W
 	- FB15K low RD value
 		○ due to entity-centric construction
 		○ higher ED and lower RD than freebase
-
+> ![image info](./images/paper_sparsity_noise_fig5.png)  
 ### 3.4 Reliability
 	- Embedding approaches rely on facts that are reliable
 	- Human-curated KG generally: high precision due to strong oversight
@@ -178,7 +178,7 @@ The presentation notes for the discussion about the Paper 'Sparsity and Noise: W
 
 	- AUPRC: Precision Recall Curve
 	- F1 Score: Model's accuracy on a dataset -> positive/negative
-
+> ![image info](./images/paper_sparsity_noise_fig6.png)  
 ### 4.1 EXTRACTED KNOWLEDGE GRAPHS
 	- NELL165: Sparse and noisy
 		- fewer facts per relation/entity than FB15k
@@ -275,7 +275,7 @@ The presentation notes for the discussion about the Paper 'Sparsity and Noise: W
 		○ performance stagnates after initial benefit
 		○ at 90% noise level, small net improvement over no noisy triples added
 		○ possible suggestion: large, unreliable corpus may be better than an extremely sparse, high-quality one
-
+> ![image info](./images/paper_sparsity_noise_fig7.png)  
 ## 5. CONCLUSION
 	- Analyzed several KG
 	- discuss key metrics for diversity, sparsity and unreliability
@@ -290,4 +290,4 @@ The presentation notes for the discussion about the Paper 'Sparsity and Noise: W
 		○ devise an optimization approach for embeddings that exploits confidence from knowledge extraction systems
 
 ## 6. References
-https://aclanthology.org/D17-1184/
+Pujara, J., Augustine, E., & Getoor, L. (2017, September). Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short. ACL Anthology. Retrieved November 2, 2022, from https://aclanthology.org/D17-1184/
